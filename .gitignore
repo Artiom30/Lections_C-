@@ -397,3 +397,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 Example_002_Hello_User.csproj
+Example_010ArrayMethod.csproj
+Example_003Sum.csproj
+.vscode
+Example_004DIV.csproj
+Example_005IfElse.csproj
+Example_007Magic.csproj
