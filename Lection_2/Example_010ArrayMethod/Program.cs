@@ -29,6 +29,5 @@ while ( index < n )
         Console.WriteLine(index);
         break;
     }
-  //index = index + 1;
-    index ++;
+    index ++;       //index = index + 1;
 }

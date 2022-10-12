@@ -1,21 +1,21 @@
-﻿//Console.Clear();        //  Очистра консоли  
+﻿Console.Clear();        //  Очистра консоли  
 // Console.SetCursorPosition(10,4);
 // Console.WriteLine("+");         // Команда задаёт положене
                                    // курсора в терминале :
                                    // 10 - отступ от левого края (х).
                                    // 4 -отступ от верхнего края (у).
-// int xa = 40, ya = 1,
-//     xb = 1, yb = 30,
-//     xc = 80, yc = 30;
+int xa = 40, ya = 1,
+    xb = 1, yb = 30,
+    xc = 80, yc = 30;
 
-// Console.SetCursorPosition(xa,ya);
-// Console.WriteLine("+");
+Console.SetCursorPosition(xa,ya);
+Console.WriteLine("+");
 
-// Console.SetCursorPosition(xb,yb);
-// Console.WriteLine("+");
+Console.SetCursorPosition(xb,yb);
+Console.WriteLine("+");
 
-// Console.SetCursorPosition(xc,yc);
-// Console.WriteLine("+");
+Console.SetCursorPosition(xc,yc);
+Console.WriteLine("+");
 
 // int x = xa, y = xb;
 
