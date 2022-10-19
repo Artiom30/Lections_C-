@@ -2,6 +2,7 @@
 
 // Вид 1: (void)
 // Не берут в себя аргументы и не возвращают никаких аргументов. 
+// void Author()
 // {
 //     Console.WriteLine();
 //     Console.WriteLine("Author - Mezheynikov Artiom.");
