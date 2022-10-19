@@ -1,1 +1,12 @@
-﻿// Лекция 5. 
+﻿// Лекция 5. Костыли и велосипеды: как не нужно писать код.
+
+
+using System.Linq;
+var a = 12;
+Console.WriteLine(a.GetType());
+
+var data = new int[] { 1, 2, 3, 4 }
+            .Where(e => e > 0)
+            .Select(e => new { q = e, w = e + 1 });
+Console.WriteLine(data.GetType());
+// var - переменная без определённого типа данных.
