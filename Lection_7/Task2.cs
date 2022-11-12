@@ -1,6 +1,6 @@
 // Задача 2.
 // Найти сумму чисел от 1 до n.
-
+/*
 // Итеративный метод:
 
 int SumFor(int n)
@@ -9,6 +9,8 @@ int SumFor(int n)
     for (int i = 1; i <= n; i++) result += i;
     return result;
 }
+
+// Рекурсивный метод:
 int SumRec(int n)
 {
     if (n == 0) return 0;
@@ -17,3 +19,4 @@ int SumRec(int n)
 
 Console.WriteLine(SumFor(10)); // 55
 Console.WriteLine(SumRec(10)); // 55
+*/
